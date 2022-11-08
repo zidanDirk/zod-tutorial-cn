@@ -1,11 +1,11 @@
-# 【超详细】Zod 入门教程
-
 Zod 是一个以 TypeScript 为首的模式声明和验证库 ，弥补了 TypeScript 无法在运行时进行校验的问题
 
 Zod 既可以用在服务端也可以运行在客户端，以保障 [Web Apps 的类型安全](https://juejin.cn/post/7161619831844765710)
 
 接下来会用十个有趣的例子，带你快速入门 Zod，体会 Zod 的强大和便利 ～ 感谢 Matt Pocock 提供的 [示例](https://www.totaltypescript.com/tutorials/zod)
 
+
+本文仓库地址传送门 [👉](https://github.com/zidanDirk/zod-tutorial-cn)
 
 > 提示：本文 Star Wars API 有时会有超时情况，如遇超时则重试几遍哈
 
@@ -754,6 +754,10 @@ const StarWarsPerson = z
 现在我们拥有一个 `name` 字段包含 `Awesome Luke Skywalker` 和一个 `nameAsArray` 字段包含 `['Awesome', 'Luke', 'Skywalker']`
 
 转换过程在最底层起作用，可以组合，并且非常有用
+
+
+# 总结
+以上就是教程的所有内容，后续还会一直补充更多的实用例子，建议收藏 ～ 也欢迎各位小伙伴看完之后能跟我一起讨论有关于 Zod 的相关问题，提出宝贵意见 ～ 
 
 
 ### 引用文献
