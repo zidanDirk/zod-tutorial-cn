@@ -1,0 +1,44 @@
+{
+  "name": "zod-tutorial-cn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exercise": "node scripts/exercise.js",
+    "e": "npm run  exercise",
+    "solution": "SOLUTION=true node scripts/exercise.js",
+    "s": "yarn solution",
+    "e-01": "yarn exercise 01",
+    "s-01": "yarn solution 01",
+    "e-02": "yarn exercise 02",
+    "s-02": "yarn solution 02",
+    "e-03": "yarn exercise 03",
+    "s-03": "yarn solution 03",
+    "e-04": "yarn exercise 04",
+    "s-04": "yarn solution 04",
+    "e-05": "yarn exercise 05",
+    "s-05": "yarn solution 05",
+    "e-06": "yarn exercise 06",
+    "s-06": "yarn solution 06",
+    "e-07": "yarn exercise 07",
+    "s-07": "yarn solution 07",
+    "e-08": "yarn exercise 08",
+    "s-08": "yarn solution 08",
+    "e-09": "yarn exercise 09",
+    "s-09": "yarn solution 09",
+    "e-10": "yarn exercise 10",
+    "s-10": "yarn solution 10"
+  },
+  "keywords": [],
+  "author": "zhangzidan",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "cross-fetch": "^3.1.5",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.5"
+  },
+  "dependencies": {
+    "zod": "^3.19.1"
+  }
+}
